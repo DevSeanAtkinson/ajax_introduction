@@ -1,7 +1,7 @@
   var weatherData = null;
 $(document).ready(function(){
   var baseUrl = 'https://api.forecast.io/forecast/';
-
+  var name = "Sean Atkinson"
   $('#get-weather').on('click', getWeather);
 
 
